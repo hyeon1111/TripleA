@@ -1,0 +1,251 @@
+#roadmap_nickname { margin-left: 15px; }
+
+#roadmap_nickname p { text-align: center; }
+
+#side_active {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#side_active:hover {
+    background-color: #e3f6f5;
+}
+
+li a.active {
+    border-radius: 7px;
+}
+
+#roadmap_list a.active {
+    background-color: #bae8e8;
+}
+
+.roadmap_content .title {
+	padding-bottom: 0px;
+}
+
+.two .textbook { margin-left: 0px; }
+
+.use { margin-top: 10px; }
+
+#top_cate_name {
+	float: left;
+	margin: 30px 10px 10px 10px;
+	background-color: #e3f6f5;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	width: 60px;
+}
+
+/* modal */
+.modiModal_content .roadmap_title {
+    text-align: center;
+}
+
+.modiModal_content .roadmap_write {
+    line-height: 0;
+}
+
+#modimodal_tb td{
+    padding: 6px;
+}
+
+#modimodal_tb select{
+    padding: 3px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+#modimodal_tb select option{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+#modimodal_tb input {
+    padding: 3px;
+}
+
+
+#roadmap_side {
+	width: 180px;
+}
+
+/* 로드맵 생성 */
+.addmodal {
+	display: none;
+	position: fixed;
+	z-index: 2;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.addmodal_content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 2px solid #888;
+	width: 540px;
+	border-radius: 10px;
+}
+
+/* 로드맵 세부 생성 */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal_content {
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 540px;
+	border-radius: 10px;
+}
+
+/* 로드맵 세부 수정 */
+.modiModal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modiModal_content {
+	background-color: #fefefe;
+	margin: 9% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 540px;
+	border-radius: 10px;
+}
+
+/* 교재추가 */
+.submodal {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/* overflow: auto;  */
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.submodal_content {
+	background-color: #fefefe;
+	margin: 0 auto;
+	margin-top: 440px;
+	padding: 10px;
+	border: 1px solid #888;
+	border-radius: 10px;
+	width: 370px;
+	/* position: absolute; */
+	/* left: 930px; */
+	/* top: 360px; */
+	z-index: 2;
+}
+
+#sub_save {
+	padding: 4px;
+	cursor: pointer;
+}
+
+#sub_cancel {
+	cursor: pointer;
+}
+
+#sub_save .pop_bt {
+	background-color: #ffd803;
+	padding: 6px;
+	border-radius: 8px;
+}
+
+#sub_cancel .pop_bt {
+	border: 2px solid #272343;
+	padding: 4px;
+	border-radius: 8px;
+}
+
+.roadmap_content {
+	position: relative;
+}
+
+/* 이름변경 */
+.modiModal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modimodal_content {
+	background-color: #fefefe;
+	margin: 5% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 430px;
+	border-radius: 10px;
+	position: absolute;
+	left: 900px;
+}
+
+#modi_save {
+	padding: 4px;
+	cursor: pointer;
+}
+
+#modi_cancel {
+	cursor: pointer;
+}
+
+#modi_save .pop_bt {
+	background-color: #ffd803;
+	padding: 6px;
+	border-radius: 8px;
+}
+
+#modi_cancel .pop_bt {
+	border: 2px solid #272343;
+	padding: 4px;
+	border-radius: 8px;
+}
+
+/* 개별 삭제 */
+.temp_del {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 1;
+}
